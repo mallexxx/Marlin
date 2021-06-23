@@ -526,7 +526,7 @@
 
     #else
 
-      #if EITHER(MKS_12864OLED, MKS_12864OLED_SSD1306)
+      #if ANY(MKS_12864OLED, MKS_12864OLED_SSD1306, OLED_25664_SSD1322)
         #define LCD_PINS_DC          EXP1_05_PIN  // Set as output on init
         #define LCD_PINS_RS          EXP1_04_PIN  // Pull low for 1s to init
         // DOGM SPI LCD Support

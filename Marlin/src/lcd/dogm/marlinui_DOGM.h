@@ -136,6 +136,16 @@
     #define U8G_CLASS U8GLIB_SSD1309_128X64_HAL
   #endif
 
+#elif ENABLED(OLED_25664_SSD1322)
+
+  #define FORCE_SOFT_SPI                                        // SW-SPI
+
+  #if ENABLED(ALTERNATIVE_LCD)
+    #define U8G_CLASS U8GLIB_SSD1322_256X64_2X                  // 4 stripes
+  #else
+    #define U8G_CLASS U8GLIB_SSD1322_256X64_HAL
+  #endif
+
 #elif ENABLED(ZONESTAR_12864OLED_SSD1306)
 
   // Zonestar SSD1306 OLED SPI LCD

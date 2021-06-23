@@ -2468,6 +2468,12 @@
 //#define OLED_PANEL_TINYBOY2
 
 //
+// SSD1322 SPI OLED 256x64 8-bit Grayscale Graphics Controller
+// https://aliexpress.com/item/32414142892.html
+//
+//#define OLED_25664_SSD1322
+
+//
 // MKS OLED 1.3" 128×64 Full Graphics Controller
 // https://reprap.org/wiki/MKS_12864OLED
 //
